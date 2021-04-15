@@ -267,11 +267,11 @@
                         //Xu ly khi click vao song 
                         if(songNode){
                             _this.currentIndex = parseInt(songNode.dataset.index)
+                            console.log(songNode.dataset.index)
                             _this.loadCurrentSong()
                             _this.render()
                             audio.play()
                         }
-
                     }
                 }
             },
